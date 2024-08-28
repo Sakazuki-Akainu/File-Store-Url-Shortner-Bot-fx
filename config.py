@@ -8,27 +8,27 @@ from logging.handlers import RotatingFileHandler
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", ""))
+APP_ID = int(os.environ.get("APP_ID", "20840106"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "bf9a89f3eeb6f95a807f0630343b90a1")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-100"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001514459022"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5461616767"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "")
-DB_NAME = os.environ.get("DATABASE_NAME", "Files-Batabase")
+DB_URI = os.environ.get("DATABASE_URL", ""mongodb+srv://Kizaru:Kizaru@cluster0.8wgzp4n.mongodb.net/?retryWrites=true&w=majority)
+DB_NAME = os.environ.get("DATABASE_NAME", "Kizaru"")
 
 #SHORTLINK
-SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "")
-SHORTLINK_API = os.environ.get('SHORTLINK_API', "")
+SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "gplinks.com")
+SHORTLINK_API = os.environ.get('SHORTLINK_API', "3edf2d061d406d8265bb74a0636199c706c85846")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
